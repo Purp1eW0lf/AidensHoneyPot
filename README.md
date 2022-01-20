@@ -20,4 +20,4 @@ set-itemproperty 'HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' -
 get-itemproperty 'HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' | select Shell
 ```
 
-# Pick up the script here
+# Pick up the script [here](https://github.com/Purp1eW0lf/AidensHoneyPot/blob/main/AHP.ps1)
