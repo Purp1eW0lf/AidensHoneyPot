@@ -1,6 +1,6 @@
 <#
 Meta:
-    Authors:  Umair Qamar (@umairq92) & Dray Agha (@Purp1eW0lf)
+    Authors:  Dray Agha (@Purp1eW0lf) & Umair Qamar (@umairq92)
     Date: 2021 July 29th
     Purpose: Honeypot box. Will pop up about 'credentials' to waste adversary time.
     Usage: Change registry key HKEY_LOCAL_MACHINE>Software>Microsoft>Windows NT>CurrentVersion>Winlogon. Change from explorer.exe to this script.
