@@ -3,11 +3,12 @@ Aiden's honeypot!
 
 # How does it work under the hood
 
-First, one has to replace some registry keys from Explorer.exe (basic Windows Desktop GUI) with the honepot
-ower
+First, one has to replace some registry keys from Explorer.exe (basic Windows Desktop GUI) with the honepot script. 
+
+This means when an adversary signs in or RDPs into a machine, they will be met with our honeypot and not the usual Windows UI
 
 ###### This will NOT break the OS, but it will make it harder to use. 
-To stil administrate the machine after doing this, open Task Manager via ctl+alt+delete and under file open a new task
+To stil administrate / attack the machine after doing this, open Task Manager via ctl+alt+delete and under file open a new task
 
 ```powershell
 #confirm you're in the right spot
