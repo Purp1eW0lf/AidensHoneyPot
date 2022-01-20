@@ -14,7 +14,7 @@ To stil administrate the machine after doing this, open Task Manager via ctl+alt
 get-itemproperty 'HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' | select Shell
 
 #replace the reg key
-set-itemproperty 'HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' -name 'Shell' -value 'powershell.exe -WindowStyle Hidden C:\test.ps1'
+set-itemproperty 'HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' -name 'Shell' -value 'powershell.exe -WindowStyle Hidden C:\hp.ps1'
 
 #confirm replacement
 get-itemproperty 'HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' | select Shell
