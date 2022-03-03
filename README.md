@@ -34,7 +34,7 @@ Your honeypot machine won't load a normal GUI, but a login UI that wastes an adv
 
 ## Change details
 
-A google chat API can be given in the script, to alert when the honeypot is used. It is currently commented out. 
+A google chat API can be given in the script, to alert when the honeypot is used and what credential was attempted. It is currently commented out. 
 
 ![image](https://user-images.githubusercontent.com/44196051/156535905-875a7c56-2d56-4e0c-9b7f-6193bfe59210.png)
 
