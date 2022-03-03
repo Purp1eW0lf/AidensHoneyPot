@@ -11,6 +11,7 @@ function googlechat_alert{
  # uncomment below and add your google chat webhook
  # TODO : Add more details insied text field, like computer name, IP address
 
+ # add your google chat API here
  # $restURI = "https://chat.googleapis.com/v1/"
     $Body = ConvertTo-Json @{
         text = $Adversary_Creds.Password
