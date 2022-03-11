@@ -45,3 +45,8 @@ You can change all text, including username here
 
 
 # Pick up the script [here](https://github.com/Purp1eW0lf/AidensHoneyPot/blob/main/AHP.ps1)
+
+## Offsec use
+You could use this maliciously. You could run this script if you have a shell on a target's machine, and have the GUI pop up and the user input their creds only for it be sent to a google webhook that you control.
+
+Noisy to bring this on disk though AND have it exfil to an external location (google chat)
